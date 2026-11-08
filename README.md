@@ -36,6 +36,8 @@ git tag v1.1.0
 git push origin v1.1.0
 ```
 
+Sans terminal (depuis l'iPhone) : **Releases → Draft a new release → Choose a tag → `v1.1.0` → Create new tag → Publish release**.
+
 La version s'affiche en bas des Réglages. Les iPhone qui ont l'app proposent « Mettre à jour » au lancement suivant.
 
 ### Réglages GitHub à faire une fois
