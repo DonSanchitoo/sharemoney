@@ -1,0 +1,30 @@
+{
+  "name": "sharemoney",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource/bricolage-grotesque": "^5.3.0",
+    "@preact/signals": "^2.11.4",
+    "@supabase/supabase-js": "^2.119.0",
+    "idb-keyval": "^6.2.2",
+    "jspdf": "^4.2.1",
+    "jspdf-autotable": "^5.0.9",
+    "preact": "^10.29.8",
+    "qrcode-generator": "^2.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.13",
+    "@preact/preset-vite": "^2.10.6",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.5",
+    "vitest": "^3.2.7"
+  }
+}
